@@ -1,0 +1,49 @@
+<style>
+p {
+width:90%;
+height:150px;
+padding:1em solid green;
+margin:1em;
+padding-style:solid green;
+border:5px solid blue;
+flex-wrap: wrap;
+}
+p {background-color:skyblue;font:15pt blue impact}
+h1 {color:grey; text-weight:bold ;text-decoration:underline;text-align:center;font:40pt monospace,serif,"times new roman" }
+h2 {color: blue;text-weight:bold;text-decoration:underline;}
+em {color: green;background-image: linear-gradient(to left, violet, indigo,paleblue, blue, green, yellow, orange, red);}
+body{background-color: rgb(255,192,203)}
+ul{list-style-type:square;}
+
+.types-of-cancer-container {width:650px ;margin:10pt; border: 10px dotted black;display:flex; flex-wrap:wrap;}
+.types-of-cancer-box { width:170px; height:170px;
+  padding:5px;
+  margin:5px;
+  border : 10px solid purple;
+}
+.container{   display:flex;
+  flex-direction:column;; width:100%; border: 10px solid brown; justify-content: center; text-align:center;}
+
+.quote {
+width:90%;
+height:100px;
+padding:20px 30px 20px 30px;
+margin:0.5em;
+border:double;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+font-family:Tangerine,cursive,sans-serif;}
+
+.box{width:90%;
+  padding:10px;
+  font: 20px bold sans-serif;
+  text-align:justify;}
+
+.red {border:10px solid purple;
+  background-color: rgb(70, 30, 200);}
+.green {border:10px solid purple;
+  background-color: rgb(70, 30, 200);}
+.yellow{border:10px solid grey;
+  background-color:yellow;}
+</style>
